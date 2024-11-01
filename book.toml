@@ -11,6 +11,7 @@ edition = "2018"
 mathjax-support = true
 default-theme = "light"
 additional-css = ["custom.css"]
+input-404 = "404.md"
 
 [output.html.playground]
 editable = true
