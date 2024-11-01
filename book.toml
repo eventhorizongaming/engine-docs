@@ -9,6 +9,8 @@ edition = "2018"
 
 [output.html]
 mathjax-support = true
+default-theme = "light"
+additional-css = ["custom.css"]
 
 [output.html.playground]
 editable = true
