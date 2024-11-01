@@ -1,12 +1,54 @@
-# Demo Book
+> [!NOTE]  
+> Anything listed in italics is either in early development or not implemented.
 
-This is a simple demo book, which is intended to be used for verifying and validating style changes in mdBook.
-This contains dummy examples of various markdown elements and code languages, so that one can check changes made in mdBook styles.
+# Event Horizon Engine
 
-This rough outline is :
+Welcome to the wiki for the Event Horizon engine!  Here, we'll provide information for all of the engine's features.
 
-- individual : contains basic markdown elements such as headings, paragraphs, links etc.
-- languages : contains a `hello world` in each of supported language to see changes in syntax highlighting
-- rust : contains language examples specific to rust, such as play pen, runnable examples etc.
+## Table of contents
+* [Asset types](#asset-types)
+* [Classes](#classes)
 
-This is more for checking and fixing style, rather than verifying that correct code is generated for given markdown, that is better handled in tests.
+## Asset types
+
+The Event Horizon engine provides several types of assets for you to use in your games.  Each asset type is based off of a standard resource (image file, audio file, shader file, etc.), but extends the functionality to be properly used as a game asset.
+
+### _Fragment shaders_
+
+More info coming soon.
+
+### _Music loops_
+
+More info coming soon.
+
+### _Particle effects_
+
+More info coming soon.
+
+### _Rigs_
+
+More info coming soon.
+
+### _Sound effects_
+
+More info coming soon.
+
+### _Spritesheets_ (releasing soon)
+
+More info coming soon.
+
+### Tilesets
+
+More info coming soon.
+
+## Classes
+
+> [!NOTE]  
+> Documentation for each class will come eventually.  Until then, use the jsdoc.
+
+| Name                 | Description                                                                                      |
+| -------------------- | ------------------------------------------------------------------------------------------------ |
+| _Sprite_             | _A renderable object that can display sprites from a spritesheet._                               |
+| _SpriteSheet_        | _A loaded instance of a spritesheet asset._                                                      |
+| Tilemap              | A renderable object that can display tiles from a tileset.                                       |
+| Tileset              | A loaded instance of a tileset asset.                                                            |
