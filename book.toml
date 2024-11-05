@@ -9,7 +9,7 @@ edition = "2018"
 
 [output.html]
 mathjax-support = true
-default-theme = "dark"
+default-theme = "light"
 additional-css = ["css/custom.css","css/alert-quotes.css"]
 additional-js = ["js/alert-quotes.js"]
 site-url = "/engine-docs/"
