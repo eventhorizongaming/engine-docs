@@ -13,26 +13,26 @@ for (let quote of quotes) {
 
   if (quoteHTML.startsWith("[!NOTE]")) {
     quote.classList.add("quote-note");
-    quote.children[0].innerHTML = '<span class="quote-title-note">' + quoteIcons.note + "Note</span>" + quote.children[0].innerHTML.slice(7);
+    quote.children[0].innerHTML = '<span class="quote-title">' + quoteIcons.note + "Note</span>" + quote.children[0].innerHTML.slice(7);
   }
 
   else if (quoteHTML.startsWith("[!TIP]")) {
     quote.classList.add("quote-tip");
-    quote.children[0].innerHTML = '<span class="quote-title-tip">' + quoteIcons.tip + "Tip</span>" + quote.children[0].innerHTML.slice(6);
+    quote.children[0].innerHTML = '<span class="quote-title">' + quoteIcons.tip + "Tip</span>" + quote.children[0].innerHTML.slice(6);
   }
   
   else if (quoteHTML.startsWith("[!IMPORTANT]")) {
     quote.classList.add("quote-important");
-    quote.children[0].innerHTML = '<span class="quote-title-important">' + quoteIcons.important + "Important</span>" + quote.children[0].innerHTML.slice(12);
+    quote.children[0].innerHTML = '<span class="quote-title">' + quoteIcons.important + "Important</span>" + quote.children[0].innerHTML.slice(12);
   }
 
   else if (quoteHTML.startsWith("[!WARNING]")) {
     quote.classList.add("quote-warning");
-    quote.children[0].innerHTML = '<span class="quote-title-warning">' + quoteIcons.warning + "Warning</span>" + quote.children[0].innerHTML.slice(10);
+    quote.children[0].innerHTML = '<span class="quote-title">' + quoteIcons.warning + "Warning</span>" + quote.children[0].innerHTML.slice(10);
   }
   
   else if (quoteHTML.startsWith("[!CAUTION]")) {
     quote.classList.add("quote-caution");
-    quote.children[0].innerHTML = '<span class="quote-title-caution">' + quoteIcons.caution + "Caution</span>" + quote.children[0].innerHTML.slice(10);
+    quote.children[0].innerHTML = '<span class="quote-title">' + quoteIcons.caution + "Caution</span>" + quote.children[0].innerHTML.slice(10);
   }
 }

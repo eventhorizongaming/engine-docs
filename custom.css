@@ -49,3 +49,31 @@ main p {
 #theme-toggle {
   display: none;
 }
+
+blockquote.quote-note {
+  border-color: #1f6feb;
+}
+
+blockquote.quote-tip {
+  border-color: #238636;
+}
+
+blockquote.quote-important {
+  border-color: #8957e5;
+}
+
+blockquote.quote-warning {
+  border-color: #9e6a03;
+}
+
+blockquote.quote-caution {
+  border-color: #da3633;
+}
+
+blockquote.quote-note *,
+blockquote.quote-tip *,
+blockquote.quote-important *,
+blockquote.quote-warning *,
+blockquote.quote-caution * {
+  color: black;
+}
