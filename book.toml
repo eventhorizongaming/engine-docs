@@ -12,7 +12,7 @@ mathjax-support = true
 default-theme = "light"
 additional-css = ["custom.css"]
 additional-js = ["quotes.js"]
-input-404 = "404.md"
+input-404 = "src/404.md"
 
 [output.html.playground]
 editable = true
