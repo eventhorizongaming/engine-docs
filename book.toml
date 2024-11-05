@@ -9,7 +9,7 @@ edition = "2018"
 
 [output.html]
 mathjax-support = true
-default-theme = "light"
+default-theme = "dark"
 additional-css = ["custom.css"]
 additional-js = ["quotes.js"]
 input-404 = "src/404.md"
