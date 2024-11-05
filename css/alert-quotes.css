@@ -1,0 +1,68 @@
+main blockquote.quote-note {
+  border-color: #1f6feb;
+}
+
+main blockquote.quote-tip {
+  border-color: #238636;
+}
+
+main blockquote.quote-important {
+  border-color: #8957e5;
+}
+
+main blockquote.quote-warning {
+  border-color: #9e6a03;
+}
+
+main blockquote.quote-caution {
+  border-color: #da3633;
+}
+
+main blockquote.quote-note *,
+main blockquote.quote-tip *,
+main blockquote.quote-important *,
+main blockquote.quote-warning *,
+main blockquote.quote-caution * {
+  color: black;
+}
+
+main blockquote .quote-title {
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+main blockquote .quote-title svg {
+  margin-right: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+main blockquote.quote-note .quote-title {
+  color: #2673e8;
+  fill: #2673e8;
+}
+
+main blockquote.quote-tip .quote-title {
+  color: #29853a;
+  fill: #29853a;
+}
+
+main blockquote.quote-important .quote-title {
+  color: #895de2;
+  fill: #895de2;
+}
+
+main blockquote.quote-warning .quote-title {
+  color: #9d6a17;
+  fill: #9d6a17;
+}
+
+main blockquote.quote-caution .quote-title {
+  color: #d83839;
+  fill: #d83839;
+}
+
+main blockquote p {
+  margin-bottom: 0px;
+}

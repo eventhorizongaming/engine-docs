@@ -1,0 +1,51 @@
+main {
+  padding-top: 16px;
+}
+
+main blockquote {
+  border: 0.25em solid #cdcdcd;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: solid;
+  padding: 8px 16px;
+  margin: 0px;
+  margin-bottom: 16px;
+  background: none;
+  color: #626262;
+}
+
+main blockquote * {
+  margin: 0px;
+}
+
+main table {
+  margin: 0px;
+  width: 100%;
+}
+
+main h1,
+main h2 {
+  border-bottom: 2px solid #e3e3e3;
+  padding-bottom: .3em;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  margin: 0px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+main p {
+  margin: 0px;
+  margin-bottom: 16px;
+}
+
+#theme-toggle {
+  display: none;
+}
