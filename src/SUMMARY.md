@@ -1,4 +1,4 @@
 # Summary
 
 * [Home](/README.md)
-* [Quotes](/quotes.md)
+* [Quotes](quotes.md)
